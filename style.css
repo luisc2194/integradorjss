@@ -1,0 +1,101 @@
+@layer navbar,
+banner,
+footer;
+
+@layer banner {
+
+    .banner__container--size {
+        height: 60vh;
+    }
+
+    .banner__img--shadow {
+        filter: drop-shadow(2px 4px 6px black);
+        -webkit-filter: drop-shadow(2px 4px 6px black);
+    }
+
+    #banner>div>img {
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@layer navbar {
+
+    nav div .navbar-nav a {
+        color: rgb(27, 215, 221);
+        
+    }
+
+    nav div .navbar-nav a:hover {
+        color: rgb(20, 236, 49)
+    }
+
+    nav div .navbar-nav .active {
+        color: whitesmoke !important
+    }
+
+}
+
+#hobbies div .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+    box-sizing: content-box;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+    -o-transition: .5s all;
+}
+
+#hobbies div .card img:hover {
+
+    object-fit: fill;
+    box-sizing: content-box;
+    opacity: 0.80;
+    transform: scale(1.1);
+    transition: .5s all;
+}
+
+.card__align--center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@layer footer {
+    footer {
+        font-size: 0.9rem;
+        background: linear-gradient(to right, #2d2e38, #1b1a1a);
+    }
+
+    footer a i {
+        text-decoration: none !important;
+        color: white !important;
+        transition: .5s all;
+        -webkit-transition: .5s all;
+        -moz-transition: .5s all;
+        -ms-transition: .5s all;
+        -o-transition: .5s all;
+    }
+
+    footer a i:hover {
+        color: rgb(181, 252, 248) !important;
+        transform: scale(1.2);
+        transition: .5s all;
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        -webkit-transition: .5s all;
+        -moz-transition: .5s all;
+        -ms-transition: .5s all;
+        -o-transition: .5s all;
+}
+
+    footer div {
+        color: white
+    }
+}
+

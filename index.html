@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="./assets/icons/icono.ico" type="image/x-icon">
+    <title>LandingPage</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="border border-dark rounded-pill"src="./assets/images/Capturaqq.JPG" width="60"/>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#yo">Sobre mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#trabajo">Trabajo Actual</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hobbies">Hobbies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#formu">Inscripcion</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="banner">
+            <div class="position-relative banner__container--size">
+                <img src="./assets/images/banner2.jpg" class="card-img-top" />
+
+                <div class="position-absolute top-0 w-100 h-100">
+                    <div class="container-fluid h-100">
+                        <div class="row h-100">
+                            <!-- <div class="d-none d-lg-flex col-lg-1"></div> -->
+                            <div class="col d-flex justify-content-start align-items-center justify-content-md-start banner__img--shadow w-auto">
+                                <p class="text-light fs-1 fw-bold">Bienvenidos a <br>Mi Landing Page</br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div id="yo" class="row">
+                <div class="col-md-6 text-center my-auto">
+                    <h1>ACERCA DE MI</h1>
+                    <p>Mi nombre es Luis Castro, tengo 29 años. Soy de Venezuela, actualmente vivo en la ciudad de Buenos Aires desde hace un año y medio.<br>Hace 7 años me gradue de Ingeniero de Sistemas, ejercer mi profesión es unas de las cosas que me apasiona hacer porque es algo muy dinámico donde tienes que estar en constante actualizacion de conocimientos y tecnologías</br></p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <img class="text-center img-fluid"src="./assets/images/carrera.jpg" alt="logo carrera">
+                </div>
+            </div>
+        </section>
+
+        <section id="trabajo" class="container">
+            <div class="row">
+                <div class="col-md-6 text-center my-auto">
+                    <h1>Trabajo Actual</h1>
+                    <br>Me encuentro trabajando como administrador de Servidores, mi tarea principal es realizar tareas como la instalación y configuración de servidores, la monitorización de su rendimiento y la resolución de cualquier problema técnico que pueda surgir.<br> Responsable además de mantener la seguridad de los servidores, asegurándome de que estén protegidos contra posibles ataques cibernéticos y de que se realicen copias de seguridad regulares.</br></p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <img class="text-center img-fluid"src="./assets/images/sysadmin.webp" alt="logo carrera">
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies" class="container">
+            <div class="row flex-row-reverse">
+                <div class="col-md-6 text-center my-auto">
+                    <h1>MIS HOBBIES</h1>
+                </div>
+
+                <div class="card-group col-md-6 my-5 gap-3">
+
+                <div class="card border border-2 border-muted bg-transparent">
+                    <img src="./assets/images/jugador basquet.webp" class="card-img-top" alt="deporte">
+                    <div class="card-body">
+                        <h5 class="card-title">Hacer deporte</h5>
+                        <p class="card-text text-dark">En mis tiempos libres, me gusta practicar deportes</p> 
+                    </div>
+                </div>
+
+                <div class="card border border-2 border-muted bg-transparent">
+                    <img src="./assets/images/Buenos-Aires-Puerto-Madero-Enviajes.webp" class="card-img-top" alt="lugares">
+                    <div class="card-body">
+                        <h5 class="card-title">Descubrir lugares</h5>
+                        <p class="card-text text-dark">Me gusta conocer sitios de interes</p>
+                    </div>
+                </div>
+
+                    <div class="card border border-2 border-muted bg-transparent">
+                        <img src="./assets/images/musica.webp" class="card-img-top" alt="comidas">
+                        <div class="card-body">
+                            <h5 class="card-title"> La Música</h5>
+                            <p class="card-text text-dark">Disfruto escuchar musica, me ayuda a concentrarme</p>
+                        </div>
+                    </div>
+
+                </div>  
+            </div>
+        </section>
+
+        <div id="formu" class="text-center my-auto text-primary">
+                <h1>INCSCRIPCION AL CURSO DE VIRTUALIZACION DE SERVIDORES</h1>
+        </div>
+
+        <div class="card-group m-5 gap-3">
+            <div class="btn card border border-2 border-muted bg-transparent" data-index="0">
+                <div class="card-body">
+                    <h5 class="card-title">BASICO</h5>
+                    <p class="card-text">Este curso de virtualizacion esta dirigido a estudiantes</p>
+                    <p class="card-text">CON UN 35% DE DESCUENTO!!</p>
+                </div>
+            </div>
+
+            <div class="btn card border border-2 border-muted bg-transparent " data-index="1">
+                <div class="card-body">
+                    <h5 class="card-title">INTERMEDIO</h5>
+                    <p class="card-text">Este curso de virtualizacion esta dirigido a personas de nivel intermedio</p>
+                    <p class="card-text">CON UN 30% DE DESCUENTO!!</p>
+                </div>
+            </div>
+
+            <div class="btn card border border-2 border-muted bg-transparent" data-index="2">
+                <div class="card-body">
+                    <h5 class="card-title">AVANZADO</h5>
+                    <p class="card-text">Este curso de virtualizacion esta dirigido a personas de nivel avanzados</p>
+                    <p class="card-text">CON UN 25% DE DESCUENTO!!</p>
+                </div>
+            </div>
+            
+        </div>
+
+        <!--form-->
+
+        <form name="formulario">
+            <div class="input-group gap-3">
+                <input name="firstname" type="text" class="form-control" placeholder="Ingresa tu Nombre">
+                <input name="lastname" type="text" class="form-control" placeholder="Ingresa tu Apellido">
+            </div>   
+
+
+            <input name="email" type="email" class="form-control" placeholder="Ingresa tu E-mail">
+
+            <div class="row">
+                <div class="col-6">
+                    <label class="d-flex justify-content-center" for="tickets">CANTIDAD DE SUSCRIPCIONES</label>
+                    <input name="tickets" id="tickets" type="number" class="form-control" placeholder="Ingrese la cantidad">
+                </div>   
+                
+                <div class="col-6">  
+                    <label class="d-flex justify-content-center" for="niveles">SELECCIONA TU NIVEL</label>
+                    <select name="category" id="niveles" class="form-select" aria-label="Default select">
+                        <option selected="" value="none" >NIVEL CORRESPONDIENTE</option>
+                        <option value="a">BASICO</option>
+                        <option value="b">INTERMEDIO</option>
+                        <option value="c">AVANZADO</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div id="total" class="bg-primary bg-opacity-25 rounded-1 p-2 my-4"></div>
+
+            <div class="row">
+                <div class="col-6">
+                    <button id="clear" class="btn btn-danger w-100">Limpiar</button>
+                </div>
+                <div class="col-6">
+                    <button id="submit" class="btn btn-success w-100">Comprar</button>
+                </div>
+
+            </div>
+        </form>
+       
+        <section id="publicidad">
+            
+            <aside>
+
+            </aside>
+
+        </section>      
+
+    </main>
+
+    <br>
+    <br>
+
+    <footer>
+
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <p>&copy; 2023 Todos los derechos reservados.</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <p>Desarrollado por <a href="#">Luis Castro</a></p>
+                </div>
+                <div class="col-md-4 text-center mb-2">
+                    <a href="#"><i class="bi bi-whatsapp"></i></href></a>
+                    <a href="https://es-la.facebook.com/"><i class="bi bi-facebook"></i></a>
+                    <a href="https://github.com/luisc2194"><i class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/luis-castro-756b80232/"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+    </script>
+
+    <script src="js/form/data.js"></script>
+
+    <script src="js/cards/dom.js"></script>
+    <script src="js/form/dom.js"></script>
+
+    <script src="js/form/form.js"></script>
+    <script src="js/cards/cards.js"></script>
+
+    <script src="js/cards/utils.js"></script>
+    <script src="js/cards/events.js"></script>
+
+    <script src="js/form/utils.js"></script>
+    <script src="js/form/events.js"></script>
+</body>
+
+</html>
