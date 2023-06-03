@@ -74,7 +74,7 @@ const submit = (e) => {
     console.log(submitAccepted)
 
     submitAccepted
-        ?location.href = '/inscripto.html'
+        ?location.href = 'inscripto.html'
         : alert('para completar la compra debes llenar todos los campos correctamente')
 
     
